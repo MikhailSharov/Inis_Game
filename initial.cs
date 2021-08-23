@@ -6,7 +6,9 @@ namespace Simple
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is C#");
+            Console.WriteLine("Enter Player 1 name:");
+            string player1 = Console.ReadLine();
+            Console.WriteLine("Player 1 is named: " + player1 + " is this correct?");
         }
     }
 }
