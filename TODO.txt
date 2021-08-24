@@ -1,0 +1,34 @@
+This is a simple text file indicating what work needs to be done to progress with the project
+
+
+Note: I am missing some components of the game, just add them if you see a game mechanic not present.
+
+
+
+Create a text visualization of the current board:
+-----------------------------------------------------------------------------------------------------------------------------------------
+This should be a function of its own which prints out the current board layout. The board layout includes:
+    - all of the current territories
+    - the number of clans in each territory
+    - if the festival is in a territory
+    - if a clan is in a citadel
+    - number of sanctuaries in a territory
+    - which side the crow is flipped (clockwise or counterclockwise)
+    - how many deeds each player has
+    - who is the Brenn
+    - how many Epic Tale (RED), Advantage (YELLOW), and Action (GREEN) cards each player has (and which player has which advantage cards)
+
+
+
+Create a method to handle deck building phase of the game:
+------------------------------------------------------------------------------------------------------------------------------------
+This function should be called at the start of each turn:
+(This might be challenging to work through locally because it involves everyone selecting cards, and then passing to another player;
+how would we do this with a one-at-a-time local turn system elegantly?)
+    
+
+
+Create a method to initiate a clash:
+------------------------------------------------------------------------------------------------
+This should be a function which walks through a clash between two or more players in a territory
+(I have no clue how we would implement this, I don't remember how clashes work lol)
